@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ideabox</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto+Slab:400,700');
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="top">
+    <article class="inputs-container">
+    <section class="title">
+      <h1 class="title-idea">idea<span class="title-box">box</span></h1>
+    </section>
+      <form action="">
+        <input  class="title-input inputs-styling" type="text" placeholder="Title">
+        <input class="body-input inputs-styling" type="text" placeholder="Body">
+        <button class="submit-button submit-width" disabled>save</button>
+      </form>
+    </article>
+  </section>
+  <section class="bottom">
+    <article class="search-container">
+      <form action="">
+        <input class="search-input inputs-styling" type="text" placeholder="Search">
+      </form>
+    </article>
+    <article class="cards-container">
+      <ul class="idea-card"></ul>
+    </article>
+  </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+html, body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title-idea,
+.title-box {
+  font-family: 'Robot Slab', serif;
+  font-weight: bold 700;
+}
+
+hr {
+  color: #D1D3D4;
+}
+
+.top {
+  width: 100%;
+  padding: 25px 0 25px 0;
+  background-color: #E5F3F2
+}
+
+.inputs-container {
+  width: 50%;
+  margin: auto;
+}
+
+/*Title, inputs, and submit button*/
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title-idea {
+  margin: 0;
+  font-size: 4.5em;
+  color: #00A79D;
+}
+
+.title-box {
+  color: #6D6E71;
+}
+
+button,
+input {
+  padding: 0;
+}
+
+.inputs-styling {
+  border: 2px solid #939598;
+  font-size: 1.5em;
+  width: 99.5%;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.inputs-styling::placeholder {
+  padding-left: 10px;
+  color: #939598;
+}
+
+.submit-button {
+  width: 100%;
+  height: 35px;
+  background: #00A79D;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+  font-size: 1.7em;
+}
+
+.submit-button:hover {
+  background-color: #045E55;
+  cursor: pointer;
+}
+
+.bottom {
+  height: 100vh;
+  width: 100%;
+  padding: 25px 0;
+}
+
+.search-container {
+  width: 50%;
+  margin: auto;
+}
+
+
+.cards-container {
+  height: 100vh;
+  width: 50%;
+  background-color: #FFFFFF;
+  margin: auto;
+}
+
+/*card container sytling*/
+
+li {
+  list-style-type: none;
+}
+.idea-card {
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.card-title {
+  display: inline-block;
+  margin: 0;
+  color: #6D6E71
+}
+
+.card-body {
+  margin: 30px 0;
+  color: #939598;
+
+}
+
+.buttons-style {
+  outline: none;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  height: 30px;
+  width: 30px;
+
+}
+
+.delete-button {
+  float: right;
+  display: inline-block;
+  background-image: url(images/delete.svg);
+}
+
+.delete-button:hover {
+  background-image: url(images/delete-hover.svg);
+}
+
+.upvote-button {
+  background-image: url(images/upvote.svg);
+}
+
+.upvote-button:hover {
+  background-image: url(images/upvote-hover.svg);
+}
+
+.downvote-button{
+  margin: 0 10px;
+  background-image: url(images/downvote.svg);
+}
+
+.downvote-button:hover {
+  background-image: url(images/downvote-hover.svg);
+}
+
+.up-down-style {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+
+.quality {
+  display: inline-block;
+  color: #6D6E71;
+}
+
+@media only screen and (max-width: 900px) {
+    .inputs-container,
+    .search-container,
+    .cards-container {
+      width: 80%;
+      margin: auto;
+    }
+
+    .title-idea {
+      font-size: 6.5em;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .inputs-container,
+    .search-container,
+    .cards-container {
+      width: 90%;
+      margin: auto;
+    }
+
+    .title-idea {
+      font-size: 4.5em;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+}
+
+
