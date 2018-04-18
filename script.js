@@ -75,6 +75,7 @@ function ideaBox() {
   };
 
   function downVote() {
+    console.log(object);
     pullFromLocalStorage(this);
 
     var quality = $(this).siblings('p').children('span');
